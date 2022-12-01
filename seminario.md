@@ -11,6 +11,7 @@ Os menus em interfaces gráficas são regiões do sistema responsáveis por orga
 Ao trabalharmos com o pacote Java Swing para construir nossas interfaces também podemos contar com essa importante ferramenta de manipulação do sistema através das classes JMenuBar, JMenu, JMenuItem, JToolBar entre outros que auxiliam a construção dos mais diferentes modelos de menu para nossa aplicação, abaixo abordaremos brevemente cada uma dessas Classes e qual o melhor cenário para aplicar cada uma delas.
 JMenuBar - A classe JMenuBar é a responsável por reservar um campo na janela para que seja construído um menu de navegação, nela podem ser inseridos elementos do tipo JMenu, JMenuItem permitindo que usuário selecione alguma opção desses para interagir.
 
+---
 JMenu - A classe JMenu é uma implementação de um menu popUp vertical, que quando pressionado exibe uma lista de opções que podem ser executadas, essas opções por vez podem estar contidas em outro JMenu ou em um JMenuItem. Quando em um JMenu, a exibição do popUp do subItem é realizada horizontalmente e quando implementado um JMenuItem é executado um evento associado ao mesmo.
 
 JMenuItem - A classe JMenuItem é uma implementação de botão de listas, que permite que ações sejam executadas a partir de um menu de navegação, sua utilização é associada aos JMenuBar contidos no sistema, e serve como botões clicáveis que serão exibidos quando o usuário interage com o JMenuBar que o contém permitindo o que o usuário execute sua funcionalidade nesse momento realizando um click no MenuItem.
@@ -18,11 +19,6 @@ JMenuItem - A classe JMenuItem é uma implementação de botão de listas, que p
 JToolBar - A classe JtoolBar é a implementação da barra de ferramentas. É um grupo de componentes comumente usados, como botões ou menu suspenso, com a finalidade de permitir uma ação rápida por parte do usuário, facilitando o acesso a funções do programa. JToolBar pode ser arrastado para diferentes locais pelo usuário, tanto nas bordas quanto no meio da janela.
 
 
-
-
-
-
- 
 JMenuBar(): Cria um novo MenuBar.
 
 
