@@ -69,7 +69,7 @@ public class Seminarios extends JFrame implements ActionListener {
 
         }else if(env.getSource() == fonte){
 
-            text.setFont(new Font("Serif", Font.PLAIN, 10));
+            text.setFont(new Font("Arial", Font.PLAIN, 15));
 
         }else if(env.getSource() == estilo){
             text.setForeground(Color.blue);
